@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reformas [Nombre] | Reformas integrales, cocinas y baños</title>
+  <meta name="description" content="Reformas de cocinas, baños y viviendas completas. Presupuesto sin compromiso.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- CABECERA: cambia "[Nombre]" por el nombre de tu empresa -->
+  <header class="cabecera">
+    <a href="#" class="logo"><span class="logo-icono">▲</span> Reformas [Nombre]</a>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#como-trabajamos">Cómo trabajamos</a>
+      <a href="#presupuesto" class="nav-boton">Pide presupuesto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PORTADA -->
+    <section class="portada">
+      <div class="portada-texto">
+        <p class="etiqueta">Reformas en [tu ciudad] y alrededores</p>
+        <h1>Reformamos tu casa sin sorpresas: precio cerrado y plazos claros</h1>
+        <p class="subtitulo">Cocinas, baños y reformas integrales. Te visitamos, te damos un presupuesto detallado y nos encargamos de todo de principio a fin.</p>
+        <div class="botones">
+          <a href="#presupuesto" class="boton">Pide tu presupuesto gratis</a>
+          <a href="tel:+34600000000" class="boton boton-secundario">Llamar: 600 000 000</a>
+        </div>
+      </div>
+      <div class="portada-imagen" aria-hidden="true">
+        <!-- Sustituye este bloque por una foto real de una obra tuya -->
+        <span>Aquí irá una foto de una de tus reformas</span>
+      </div>
+    </section>
+
+    <!-- VENTAJAS -->
+    <section class="ventajas">
+      <div><strong>Presupuesto sin compromiso</strong><span>Visita y estudio gratuitos</span></div>
+      <div><strong>Precio cerrado</strong><span>Sabes lo que pagas desde el principio</span></div>
+      <div><strong>Un solo interlocutor</strong><span>Coordinamos todos los gremios</span></div>
+      <div><strong>Obra limpia</strong><span>Protegemos y recogemos cada día</span></div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="seccion">
+      <h2>Qué hacemos</h2>
+      <p class="intro">Desde un cambio de bañera por plato de ducha hasta la reforma completa de tu vivienda.</p>
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <h3>Reformas integrales</h3>
+          <p>Redistribución, instalaciones nuevas y acabados. Tu casa, como nueva.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Cocinas</h3>
+          <p>Diseño, muebles, encimeras, alicatado y electrodomésticos.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Baños</h3>
+          <p>Cambio de bañera por plato de ducha, alicatado, sanitarios y mamparas.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Suelos y pintura</h3>
+          <p>Tarima, porcelánico, alisado de paredes y pintura de interiores.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Fontanería y electricidad</h3>
+          <p>Renovación de tuberías, cuadros eléctricos e iluminación.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Locales y oficinas</h3>
+          <p>Adecuación de espacios comerciales para abrir cuanto antes.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CÓMO TRABAJAMOS -->
+    <section id="como-trabajamos" class="seccion seccion-oscura">
+      <h2>Cómo trabajamos</h2>
+      <ol class="pasos">
+        <li><span>1</span><h3>Nos cuentas tu idea</h3><p>Por teléfono, WhatsApp o con el formulario.</p></li>
+        <li><span>2</span><h3>Visitamos la obra</h3><p>Medimos, te asesoramos y vemos posibles problemas.</p></li>
+        <li><span>3</span><h3>Presupuesto detallado</h3><p>Partida por partida, con precio y plazo cerrados.</p></li>
+        <li><span>4</span><h3>Reformamos y entregamos</h3><p>Te informamos del avance y entregamos la obra limpia.</p></li>
+      </ol>
+    </section>
+
+    <!-- PRESUPUESTO -->
+    <section id="presupuesto" class="seccion presupuesto">
+      <div>
+        <h2>Pide tu presupuesto</h2>
+        <p class="intro">Cuéntanos qué quieres reformar y te contactamos en menos de 24 horas.</p>
+        <ul class="datos-contacto">
+          <li>📞 <a href="tel:+34600000000">600 000 000</a></li>
+          <li>💬 <a href="https://wa.me/34600000000">WhatsApp</a></li>
+          <li>✉️ <a href="mailto:info@tuempresa.com">info@tuempresa.com</a></li>
+          <li>📍 [Tu ciudad] y alrededores</li>
+        </ul>
+      </div>
+      <form id="formulario" class="formulario">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="tel" name="telefono" placeholder="Teléfono" required>
+        <select name="tipo" required>
+          <option value="">¿Qué quieres reformar?</option>
+          <option>Reforma integral</option>
+          <option>Cocina</option>
+          <option>Baño</option>
+          <option>Suelos o pintura</option>
+          <option>Fontanería o electricidad</option>
+          <option>Local u oficina</option>
+          <option>Otro</option>
+        </select>
+        <textarea name="mensaje" rows="4" placeholder="Cuéntanos un poco más (metros, ubicación, cuándo te gustaría empezar…)"></textarea>
+        <button type="submit" class="boton">Enviar solicitud</button>
+        <p id="aviso" class="aviso" hidden>¡Gracias! Hemos recibido tu solicitud (de momento es una demostración: el formulario aún no envía mensajes).</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>© <span id="anio"></span> Reformas [Nombre] · [Tu ciudad]</p>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp: cambia el número -->
+  <a href="https://wa.me/34600000000" class="whatsapp" aria-label="Escríbenos por WhatsApp">💬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

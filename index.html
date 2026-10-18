@@ -1,0 +1,956 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>IMR Reformas | Madrid y Guadalajara - Presupuesto Cerrado y Garantía de 5 Años</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "sky-main": "#0284c7",
+            "sky-primary": "#0369a1",
+            "sky-dark": "#075985",
+            "sky-navy": "#0c4a6e",
+            "sky-light": "#e0f2fe",
+            "sky-tint": "#f0f9ff",
+            "pink-bubble": "#ec4899",
+            "pink-hover": "#db2777",
+            "pink-light": "#fdf2f8",
+            "pink-border": "#f472b6",
+            "surface": "#f8fafc",
+            "surface-container": "#f0f9ff",
+            "surface-container-high": "#e0f2fe",
+            "surface-container-lowest": "#ffffff",
+            "on-surface": "#0f172a",
+            "on-surface-variant": "#334155",
+            "outline-variant": "#bae6fd",
+            "whatsapp": "#10B981",
+            "whatsapp-hover": "#059669"
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            body: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    @layer base {
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+    }
+    .technical-blueprint-bg {
+      background-color: #034870;
+      background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(rgba(56, 189, 248, 0.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(56, 189, 248, 0.12) 1px, transparent 1px);
+      background-size: 80px 80px, 80px 80px, 16px 16px, 16px 16px;
+      background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+    }
+    .technical-panel-bg {
+      background-color: #043858;
+      background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+    .blueprint-pattern-light {
+      background-color: #f0f9ff;
+      background-image: 
+        linear-gradient(rgba(2, 132, 199, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(2, 132, 199, 0.06) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+    @keyframes subtle-pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.06); }
+    }
+    .animate-subtle-pulse {
+      animation: subtle-pulse 2.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+  </style>
+</head>
+<body class="bg-surface text-on-surface antialiased font-sans selection:bg-pink-bubble selection:text-white">
+<!-- 1. HEADER FIJO -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-sky-100 shadow-sm transition-all duration-200">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8 h-20 flex items-center justify-between">
+<!-- Logo vectorial con isotipo escuadra arquitectónica -->
+<a class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-pink-bubble rounded-lg" href="#">
+<div class="w-10 h-10 rounded-xl bg-sky-light text-sky-primary flex items-center justify-center shadow-inner transition-transform group-hover:scale-105 border border-sky-200"><img src="https://lh3.googleusercontent.com/aida/AEtjO1UmL4c_G0b0cWOlwB_udAqMM_yEUm5pouG-2cnOdxA0EZsPbOBeuEKnZMuO_-lxCYHuPcxJxwGqmaM_U_SHWI4DNsEy2grUowN7NB6-vn00jQjw73Ka_R37M8GLc8WuCbc8Flu-Yre1YvMNDGQp_RUYsrwaQLNw3hsiLE-w-qlO57a5Je9XPLvX87DkEbs8P-3wz75Z_lUTxw_SHNsQhU_LrqPHNxM3HsaHC67wtx9d5TpTyV0WAZJr5zw" alt="Logo IMR Reformas" class="w-full h-full object-contain p-0.5 rounded-lg"></div>
+<div class="flex flex-col leading-tight">
+<div class="flex items-center gap-1.5">
+<span class="text-xl font-extrabold tracking-tight text-sky-dark uppercase">IMR</span>
+<span class="text-xl font-bold tracking-tight text-pink-bubble">Reformas</span>
+</div>
+<span class="text-[11px] font-semibold text-sky-600 uppercase tracking-wider">Madrid • Guadalajara</span>
+</div>
+</a>
+<!-- Menú desktop -->
+<nav class="hidden lg:flex items-center gap-7">
+<a class="text-sm font-semibold text-on-surface-variant hover:text-pink-bubble transition-colors" href="#servicios">Servicios</a>
+<a class="text-sm font-semibold text-on-surface-variant hover:text-pink-bubble transition-colors" href="#calculadora">Calculadora</a>
+<a class="text-sm font-semibold text-on-surface-variant hover:text-pink-bubble transition-colors" href="#proyectos">Proyectos Reales</a><a class="text-sm font-semibold text-on-surface-variant hover:text-pink-bubble transition-colors" href="#opiniones">Opiniones</a>
+<a class="text-sm font-semibold text-on-surface-variant hover:text-pink-bubble transition-colors" href="#compromisos">Garantías</a>
+<a class="text-sm font-semibold text-on-surface-variant hover:text-pink-bubble transition-colors" href="#como-trabajamos">Cómo trabajamos</a>
+<a class="text-sm font-semibold text-on-surface-variant hover:text-pink-bubble transition-colors" href="#contacto">Contacto</a>
+</nav>
+<!-- CTA header -->
+<div class="flex items-center gap-3">
+<a class="hidden sm:inline-flex items-center gap-2 text-on-surface font-bold text-sm px-3 py-2 rounded-lg hover:bg-sky-50 transition-colors" href="tel:910605019">
+<span class="w-8 h-8 rounded-lg bg-sky-100 text-sky-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[19px]">call</span>
+</span>
+<span class="">910 605 019</span>
+</a>
+<a class="inline-flex items-center justify-center bg-pink-bubble hover:bg-pink-hover text-white font-bold text-sm px-5 py-2.5 rounded-xl shadow-md shadow-pink-500/20 transition-all hover:shadow-lg active:scale-95" href="#presupuesto">
+          Presupuesto gratis
+        </a>
+</div>
+</div>
+</header>
+<main class="w-full pt-20">
+<!-- 2. HERO TÉCNICO (CERO FOTOS) -->
+<section class="relative w-full technical-blueprint-bg text-white overflow-hidden py-14 lg:py-20 border-b border-sky-800">
+<!-- Glow ambiental sobrio en rosa chicle y azul cielo -->
+<div class="absolute -top-32 -left-32 w-96 h-96 bg-pink-bubble/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-sky-400/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-[1240px] mx-auto px-4 md:px-8 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Columna Izquierda: Mensaje de Alta Confianza -->
+<div class="lg:col-span-7 flex flex-col items-start gap-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-sky-300/40 text-pink-200 text-xs font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[17px] text-pink-300">verified</span>
+<span class="">Empresa homologada en Madrid y Guadalajara</span>
+</div>
+<h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-[1.15]">
+              Reformas en Madrid con <span class="text-pink-300 underline decoration-pink-400/50 underline-offset-8">precio cerrado</span> y sin sorpresas
+            </h1>
+<p class="text-base sm:text-lg text-sky-100 max-w-xl font-normal leading-relaxed">
+              Reformas integrales de pisos, baños, cocinas, chalets y locales comerciales. Gremios con equipo propio en nómina, fechas de entrega en contrato y <strong>5 años de garantía certificada por escrito</strong>.
+            </p>
+<!-- 3 Sellos de Confianza Técnicos Vectoriales -->
+<div class="w-full grid grid-cols-1 sm:grid-cols-3 gap-3.5 pt-2"><div class="flex items-center gap-3 p-3.5 rounded-xl bg-sky-950/60 border border-sky-500/30 backdrop-blur-sm"><div class="w-10 h-10 rounded-lg bg-pink-500/20 text-pink-300 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-[22px]">contract</span></div><div><span class="text-xs font-bold text-white block">Precio Cerrado</span><span class="text-[11px] text-sky-200">Por contrato vinculante</span></div></div><div class="flex items-center gap-3 p-3.5 rounded-xl bg-sky-950/60 border border-sky-500/30 backdrop-blur-sm"><div class="w-10 h-10 rounded-lg bg-sky-400/20 text-sky-200 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-[22px]">engineering</span></div><div><span class="text-xs font-bold text-white block">Equipo Propio</span><span class="text-[11px] text-sky-200">Gremios en plantilla fija</span></div></div><div class="flex items-center gap-3 p-3.5 rounded-xl bg-sky-950/60 border border-sky-500/30 backdrop-blur-sm"><div class="w-10 h-10 rounded-lg bg-pink-500/20 text-pink-300 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-[22px]">architecture</span></div><div><span class="text-xs font-bold text-white block">Visita 100% Gratis</span><span class="text-[11px] text-sky-200">Medición in situ sin coste</span></div></div></div>
+<!-- Cita de compromiso técnico -->
+<div class="flex items-center gap-2.5 text-xs text-sky-200 pt-1 border-t border-sky-700/60 w-full">
+<span class="material-symbols-outlined text-pink-300 text-base">gavel</span>
+<span class="">Contrato legal con penalización de retraso estipulada a favor del cliente.</span>
+</div>
+</div>
+<!-- Columna Derecha: Tarjeta Blanca Flotante con Formulario Completo -->
+<div class="lg:col-span-5 w-full" id="presupuesto">
+<div class="bg-white text-on-surface rounded-2xl p-6 sm:p-7 shadow-2xl border border-sky-100 relative">
+<div class="flex items-center justify-between pb-3 border-b border-sky-100 mb-4">
+<div>
+<span class="inline-flex items-center gap-1.5 text-pink-bubble font-bold text-xs uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-pink-bubble animate-ping"></span>
+                    Atención Inmediata
+                  </span>
+<h2 class="text-xl font-bold text-sky-dark mt-0.5">Pide tu presupuesto sin compromiso</h2>
+</div>
+<div class="w-10 h-10 rounded-xl bg-pink-50 text-pink-bubble flex items-center justify-center shrink-0 border border-pink-100">
+<span class="material-symbols-outlined text-[22px]">calculate</span>
+</div>
+</div>
+<form class="space-y-3.5" onsubmit="event.preventDefault(); alert('¡Gracias! Hemos recibido tu solicitud. Un técnico jefe de obra de IMR te llamará en menos de 24 horas.');">
+<div>
+<label class="block text-xs font-bold text-sky-900 uppercase mb-1" for="hero-nombre">Nombre y Apellidos</label>
+<input class="w-full h-11 px-3.5 rounded-xl border border-sky-200 bg-sky-tint/30 text-sm font-medium focus:border-pink-bubble focus:ring-1 focus:ring-pink-bubble outline-none transition" id="hero-nombre" placeholder="Ej. Carlos Martínez" required="" type="text">
+</div>
+<div>
+<label class="block text-xs font-bold text-sky-900 uppercase mb-1" for="hero-telefono">Teléfono móvil</label>
+<input class="w-full h-11 px-3.5 rounded-xl border border-sky-200 bg-sky-tint/30 text-sm font-medium focus:border-pink-bubble focus:ring-1 focus:ring-pink-bubble outline-none transition" id="hero-telefono" placeholder="Ej. 612 345 678" required="" type="tel">
+</div>
+<div>
+<label class="block text-xs font-bold text-sky-900 uppercase mb-1" for="hero-tipo">Tipo de reforma</label>
+<select class="w-full h-11 px-3.5 rounded-xl border border-sky-200 text-sm font-medium focus:border-pink-bubble focus:ring-1 focus:ring-pink-bubble outline-none transition bg-white" id="hero-tipo">
+<option value="integral">Reforma integral de piso</option>
+<option value="bano">Reforma de cuarto de baño</option>
+<option value="cocina">Reforma de cocina</option>
+<option value="chalet">Reforma integral de chalet / unifamiliar</option>
+<option value="local">Local comercial u oficina de trabajo</option>
+<option value="otro">Otras reformas e instalaciones</option>
+</select>
+</div>
+<div>
+<label class="block text-xs font-bold text-sky-900 uppercase mb-1" for="hero-localidad">Localidad o distrito (Madrid / Guadalajara)</label>
+<input class="w-full h-11 px-3.5 rounded-xl border border-sky-200 bg-sky-tint/30 text-sm font-medium focus:border-pink-bubble focus:ring-1 focus:ring-pink-bubble outline-none transition" id="hero-localidad" placeholder="Ej. Chamberí, Ciudad Lineal, Alcalá..." required="" type="text">
+</div>
+<div class="flex items-start gap-2 pt-1">
+<input class="mt-1 h-4 w-4 rounded border-sky-300 text-pink-bubble focus:ring-pink-bubble cursor-pointer" id="hero-privacidad" required="" type="checkbox">
+<label class="text-[11px] text-slate-500 leading-snug cursor-pointer" for="hero-privacidad">
+                    Acepto la política de protección de datos para recibir la propuesta y contacto técnico.
+                  </label>
+</div>
+<button class="w-full mt-2 py-3.5 px-4 rounded-xl bg-pink-bubble hover:bg-pink-hover text-white text-sm font-bold shadow-lg shadow-pink-500/25 transition-all flex items-center justify-center gap-2 group active:scale-[0.99]" type="submit">
+<span class="">Quiero mi presupuesto gratuito</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<div class="text-center pt-2">
+<a class="inline-flex items-center gap-1.5 text-xs text-emerald-600 hover:text-emerald-700 font-bold" href="https://wa.me/34910605019" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+<path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.136 8.136 0 0 1-1.25-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.188 8.188 0 0 1 2.41 5.83c.01 4.54-3.68 8.23-8.22 8.23z"></path>
+</svg>
+<span class="">O escríbenos directamente por WhatsApp</span>
+</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. BARRA DE CONFIANZA MÉTRICA -->
+<section class="w-full bg-sky-tint border-b border-sky-100 py-6">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"><div class="flex items-center gap-3.5 bg-white p-4 rounded-xl border border-sky-100 shadow-sm"><div class="w-12 h-12 rounded-xl bg-pink-50 text-pink-bubble flex items-center justify-center shrink-0 border border-pink-100"><span class="material-symbols-outlined text-[26px]">request_quote</span></div><div><span class="text-lg font-extrabold text-sky-dark block leading-none">Visita Gratuita</span><span class="text-xs text-on-surface-variant font-medium mt-1 block">Medición y presupuesto sin coste</span></div></div><div class="flex items-center gap-3.5 bg-white p-4 rounded-xl border border-sky-100 shadow-sm"><div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-primary flex items-center justify-center shrink-0 border border-sky-100"><span class="material-symbols-outlined text-[26px]">handshake</span></div><div><span class="text-lg font-extrabold text-sky-dark block leading-none">Precio Cerrado</span><span class="text-xs text-on-surface-variant font-medium mt-1 block">Estipulado formalmente por contrato</span></div></div><div class="flex items-center gap-3.5 bg-white p-4 rounded-xl border border-sky-100 shadow-sm"><div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-main flex items-center justify-center shrink-0 border border-sky-100"><span class="material-symbols-outlined text-[26px]">engineering</span></div><div><span class="text-lg font-extrabold text-sky-dark block leading-none">Equipo Propio</span><span class="text-xs text-on-surface-variant font-medium mt-1 block">Oficiales y técnicos en nómina</span></div></div><div class="flex items-center gap-3.5 bg-white p-4 rounded-xl border border-sky-100 shadow-sm"><div class="w-12 h-12 rounded-xl bg-pink-50 text-pink-bubble flex items-center justify-center shrink-0 border border-pink-100"><span class="material-symbols-outlined text-[26px]">verified_user</span></div><div><span class="text-lg font-extrabold text-sky-dark block leading-none">Garantía Escrita</span><span class="text-xs text-on-surface-variant font-medium mt-1 block">Hasta 5 años según partidas</span></div></div></div>
+</div>
+</section>
+<!-- 4. SERVICIOS PARA VIVIENDA (SIN FOTOS - TARJETAS TÉCNICAS ARQUITECTÓNICAS) -->
+<section class="w-full py-16 lg:py-24 bg-surface" id="servicios">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-pink-light text-pink-bubble border border-pink-200 text-xs font-bold uppercase tracking-wider mb-2">
+<span class="">Especialidades de Vivienda</span>
+</div>
+<h2 class="text-3xl lg:text-4xl font-extrabold text-sky-dark tracking-tight">¿Qué quieres reformar?</h2>
+<p class="text-on-surface-variant text-base mt-2">
+            Memoria de calidades transparente, dirección de obra continuada y desglose técnico sin costes ocultos.
+          </p>
+</div>
+<!-- 4 Tarjetas Técnicas -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"><div class="bg-white rounded-2xl border border-sky-100 shadow-sm hover:shadow-xl hover:border-pink-border transition-all duration-300 flex flex-col justify-between overflow-hidden group"><div class="p-6"><div class="flex items-center justify-between mb-4"><div class="w-12 h-12 rounded-xl bg-sky-light text-sky-dark flex items-center justify-center group-hover:bg-pink-light group-hover:text-pink-bubble transition-all"><svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect height="18" rx="2" width="18" x="3" y="3"></rect><path d="M3 9H9V3"></path><path d="M9 21V13H15V21"></path><path d="M15 9H21"></path></svg></div><span class="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-sky-50 text-sky-dark border border-sky-100">Integral</span></div><h3 class="text-xl font-bold text-sky-dark group-hover:text-pink-bubble transition-colors">Reforma integral de piso</h3><p class="text-xs text-on-surface-variant mt-1.5 leading-relaxed">Renovación total de vivienda para optimizar luz, aislamiento y redistribución de estancias.</p><div class="mt-5 pt-4 border-t border-sky-100"><span class="text-[11px] font-bold text-sky-600 uppercase tracking-wider block mb-2">Incluye en memoria técnica:</span><ul class="space-y-2 text-xs text-slate-600"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Demolición y desescombro en vertedero</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Fontanería multicapa + desagües PVC</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Electricidad REBT con cuadro nuevo</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Tarima AC5 / Suelo porcelánico</span></li></ul></div></div><div class="p-6 bg-sky-tint/50 border-t border-sky-100"><p class="text-xs text-slate-600 font-medium mb-3">Presupuesto a medida tras medición técnica presencial y gratuita.</p><a class="w-full inline-flex items-center justify-center gap-2 bg-sky-dark hover:bg-pink-bubble text-white text-xs font-bold py-2.5 px-4 rounded-xl transition-colors shadow-sm" href="#presupuesto"><span class="">Solicitar medición gratis</span><span class="material-symbols-outlined text-[16px]">chevron_right</span></a></div></div><div class="bg-white rounded-2xl border border-sky-100 shadow-sm hover:shadow-xl hover:border-pink-border transition-all duration-300 flex flex-col justify-between overflow-hidden group"><div class="p-6"><div class="flex items-center justify-between mb-4"><div class="w-12 h-12 rounded-xl bg-sky-light text-sky-dark flex items-center justify-center group-hover:bg-pink-light group-hover:text-pink-bubble transition-all"><svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M4 12H20V15C20 17.2091 18.2091 19 16 19H8C5.79086 19 4 17.2091 4 15V12Z"></path><path d="M6 12V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5V6"></path><path d="M6 19L5 21"></path><path d="M18 19L19 21"></path></svg></div><span class="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-sky-50 text-sky-dark border border-sky-100">Baño</span></div><h3 class="text-xl font-bold text-sky-dark group-hover:text-pink-bubble transition-colors">Reforma de baño</h3><p class="text-xs text-on-surface-variant mt-1.5 leading-relaxed">Cambio de bañera por plato de ducha o reforma integral con saneamiento y grifería de diseño.</p><div class="mt-5 pt-4 border-t border-sky-100"><span class="text-[11px] font-bold text-sky-600 uppercase tracking-wider block mb-2">Incluye en memoria técnica:</span><ul class="space-y-2 text-xs text-slate-600"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Plato de ducha pizarra antideslizante</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Mampara templada de seguridad de 8 mm</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Alicatado rectificado porcelánico</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Mueble suspendido con lavabo cerámico</span></li></ul></div></div><div class="p-6 bg-sky-tint/50 border-t border-sky-100"><p class="text-xs text-slate-600 font-medium mb-3">Presupuesto a medida tras medición técnica presencial y gratuita.</p><a class="w-full inline-flex items-center justify-center gap-2 bg-sky-dark hover:bg-pink-bubble text-white text-xs font-bold py-2.5 px-4 rounded-xl transition-colors shadow-sm" href="#presupuesto"><span class="">Solicitar medición gratis</span><span class="material-symbols-outlined text-[16px]">chevron_right</span></a></div></div><div class="bg-white rounded-2xl border border-sky-100 shadow-sm hover:shadow-xl hover:border-pink-border transition-all duration-300 flex flex-col justify-between overflow-hidden group"><div class="p-6"><div class="flex items-center justify-between mb-4"><div class="w-12 h-12 rounded-xl bg-sky-light text-sky-dark flex items-center justify-center group-hover:bg-pink-light group-hover:text-pink-bubble transition-all"><svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect height="18" rx="2" width="18" x="3" y="3"></rect><line x1="3" x2="21" y1="10" y2="10"></line><circle cx="7.5" cy="6.5" r="1.5"></circle><circle cx="16.5" cy="6.5" r="1.5"></circle><path d="M8 15H16"></path></svg></div><span class="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-sky-50 text-sky-dark border border-sky-100">Cocina</span></div><h3 class="text-xl font-bold text-sky-dark group-hover:text-pink-bubble transition-colors">Reforma de cocina</h3><p class="text-xs text-on-surface-variant mt-1.5 leading-relaxed">Mobiliario ergonómico con perfil gola, encimeras compactas y nuevo conexionado técnico.</p><div class="mt-5 pt-4 border-t border-sky-100"><span class="text-[11px] font-bold text-sky-600 uppercase tracking-wider block mb-2">Incluye en memoria técnica:</span><ul class="space-y-2 text-xs text-slate-600"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Muebles a medida antihuellas 19 mm</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Encimera de cuarzo o porcelánico</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Líneas eléctricas reforzadas (horno/vitro)</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Fregadero bajo encimera y grifo caño alto</span></li></ul></div></div><div class="p-6 bg-sky-tint/50 border-t border-sky-100"><p class="text-xs text-slate-600 font-medium mb-3">Presupuesto a medida tras medición técnica presencial y gratuita.</p><a class="w-full inline-flex items-center justify-center gap-2 bg-sky-dark hover:bg-pink-bubble text-white text-xs font-bold py-2.5 px-4 rounded-xl transition-colors shadow-sm" href="#presupuesto"><span class="">Solicitar medición gratis</span><span class="material-symbols-outlined text-[16px]">chevron_right</span></a></div></div><div class="bg-white rounded-2xl border border-sky-100 shadow-sm hover:shadow-xl hover:border-pink-border transition-all duration-300 flex flex-col justify-between overflow-hidden group"><div class="p-6"><div class="flex items-center justify-between mb-4"><div class="w-12 h-12 rounded-xl bg-sky-light text-sky-dark flex items-center justify-center group-hover:bg-pink-light group-hover:text-pink-bubble transition-all"><svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3 10L12 2L21 10V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V10Z"></path><path d="M9 21V12H15V21"></path><path d="M18 5V3H15V5"></path></svg></div><span class="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-sky-50 text-sky-dark border border-sky-100">Unifamiliar</span></div><h3 class="text-xl font-bold text-sky-dark group-hover:text-pink-bubble transition-colors">Reforma de chalet</h3><p class="text-xs text-on-surface-variant mt-1.5 leading-relaxed">Adecuación integral, cubiertas, fachadas SATE, aerotermia y redistribución de plantas.</p><div class="mt-5 pt-4 border-t border-sky-100"><span class="text-[11px] font-bold text-sky-600 uppercase tracking-wider block mb-2">Incluye en memoria técnica:</span><ul class="space-y-2 text-xs text-slate-600"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Eficiencia energética y climatización</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Carpintería exterior con rotura puente térmico</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Impermeabilización de cubiertas y terrazas</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-pink-bubble">check_circle</span><span class="">Dirección de obra técnica cualificada</span></li></ul></div></div><div class="p-6 bg-sky-tint/50 border-t border-sky-100"><p class="text-xs text-slate-600 font-medium mb-3">Presupuesto a medida tras medición técnica presencial y gratuita.</p><a class="w-full inline-flex items-center justify-center gap-2 bg-sky-dark hover:bg-pink-bubble text-white text-xs font-bold py-2.5 px-4 rounded-xl transition-colors shadow-sm" href="#presupuesto"><span class="">Solicitar medición gratis</span><span class="material-symbols-outlined text-[16px]">chevron_right</span></a></div></div></div>
+</div>
+</section>
+<!-- 5. CALCULADORA INTERACTIVA DE PRESUPUESTOS (1 MINUTO) -->
+<section class="w-full py-16 lg:py-24 bg-sky-tint/60 border-y border-sky-100" id="calculadora">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8">
+<div class="text-center max-w-3xl mx-auto mb-12"><div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-100 text-sky-dark text-xs font-bold uppercase tracking-wider mb-2 border border-sky-200"><span class="material-symbols-outlined text-[17px] text-pink-bubble">tune</span><span class="">Configurador Técnico Previo</span></div><h2 class="text-3xl lg:text-4xl font-extrabold text-sky-dark tracking-tight">Solicitud de estimación técnica personalizada</h2><p class="text-on-surface-variant text-base mt-2">Indica los datos de tu vivienda y te preparamos una valoración detallada y real con visita presencial gratuita sin compromiso en Madrid y Guadalajara.</p></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Controles de la Calculadora -->
+<div class="lg:col-span-7 bg-white p-6 sm:p-8 rounded-2xl border border-sky-100 shadow-sm space-y-7">
+<!-- Paso 1 -->
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="text-xs font-bold text-pink-bubble uppercase tracking-wider">Paso 1</span>
+<span class="text-xs text-slate-400">Tipo de obra</span>
+</div>
+<h3 class="text-base font-bold text-sky-dark mb-3">¿Qué estancia o espacio deseas reformar?</h3>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5" id="calc-type-selector">
+<button class="calc-type-btn flex flex-col items-center justify-center p-3 rounded-xl border-2 border-pink-bubble bg-pink-50/60 text-sky-dark transition-all text-center gap-1.5" data-base="550" data-type="piso" type="button">
+<span class="material-symbols-outlined text-[24px] text-pink-bubble">apartment</span>
+<span class="text-xs font-bold">Piso Integral</span>
+</button>
+<button class="calc-type-btn flex flex-col items-center justify-center p-3 rounded-xl border border-sky-200 hover:border-pink-bubble bg-white text-slate-600 transition-all text-center gap-1.5" data-base="750" data-type="bano" type="button">
+<span class="material-symbols-outlined text-[24px]">bathtub</span>
+<span class="text-xs font-bold">Baño</span>
+</button>
+<button class="calc-type-btn flex flex-col items-center justify-center p-3 rounded-xl border border-sky-200 hover:border-pink-bubble bg-white text-slate-600 transition-all text-center gap-1.5" data-base="680" data-type="cocina" type="button">
+<span class="material-symbols-outlined text-[24px]">soup_kitchen</span>
+<span class="text-xs font-bold">Cocina</span>
+</button>
+<button class="calc-type-btn flex flex-col items-center justify-center p-3 rounded-xl border border-sky-200 hover:border-pink-bubble bg-white text-slate-600 transition-all text-center gap-1.5" data-base="620" data-type="chalet" type="button">
+<span class="material-symbols-outlined text-[24px]">cottage</span>
+<span class="text-xs font-bold">Chalet</span>
+</button>
+</div>
+</div>
+<!-- Paso 2 -->
+<div class="pt-6 border-t border-sky-100">
+<div class="flex items-center justify-between mb-3">
+<span class="text-xs font-bold text-pink-bubble uppercase tracking-wider">Paso 2</span>
+<span class="text-xs text-slate-400">Superficie útil</span>
+</div>
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-base font-bold text-sky-dark">Superficie aproximada</h3>
+<span class="text-lg font-extrabold text-pink-bubble px-3 py-1 bg-pink-50 rounded-lg border border-pink-100" id="calc-sqm-text">80 m²</span>
+</div>
+<input class="w-full h-2 bg-sky-100 rounded-lg appearance-none cursor-pointer accent-pink-bubble" id="calc-range" max="250" min="10" step="5" type="range" value="80">
+<!-- Badges de superficie -->
+<div class="flex flex-wrap gap-2 mt-3">
+<button class="calc-badge-btn px-3 py-1 rounded-lg text-xs font-semibold bg-sky-50 text-sky-900 hover:bg-sky-100 border border-sky-200" data-m2="45" type="button">45 m² (Estudio)</button>
+<button class="calc-badge-btn px-3 py-1 rounded-lg text-xs font-bold bg-pink-bubble text-white shadow-sm" data-m2="80" type="button">80 m² (Piso medio)</button>
+<button class="calc-badge-btn px-3 py-1 rounded-lg text-xs font-semibold bg-sky-50 text-sky-900 hover:bg-sky-100 border border-sky-200" data-m2="120" type="button">120 m² (Piso grande)</button>
+<button class="calc-badge-btn px-3 py-1 rounded-lg text-xs font-semibold bg-sky-50 text-sky-900 hover:bg-sky-100 border border-sky-200" data-m2="180" type="button">180 m² (Chalet)</button>
+</div>
+</div>
+<!-- Paso 3 -->
+<div class="pt-6 border-t border-sky-100">
+<div class="flex items-center justify-between mb-3">
+<span class="text-xs font-bold text-pink-bubble uppercase tracking-wider">Paso 3</span>
+<span class="text-xs text-slate-400">Gamas y acabados</span>
+</div>
+<h3 class="text-base font-bold text-sky-dark mb-3">Nivel de calidades y materiales</h3>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3" id="calc-quality-selector">
+<button class="calc-quality-btn p-3.5 rounded-xl border border-sky-200 text-left hover:border-pink-bubble transition-all" data-factor="1.0" type="button">
+<span class="text-xs font-bold text-sky-dark block">Básica</span>
+<span class="text-[11px] text-slate-500 block mt-1">Materiales estándar solventes de primeras marcas.</span>
+</button>
+<button class="calc-quality-btn p-3.5 rounded-xl border-2 border-pink-bubble bg-pink-50/50 text-left transition-all relative" data-factor="1.25" type="button">
+<span class="absolute -top-2 right-2 px-1.5 py-0.5 rounded bg-pink-bubble text-white text-[9px] font-bold uppercase shadow-sm">Recomendada</span>
+<span class="text-xs font-bold text-pink-bubble block">Confort</span>
+<span class="text-[11px] text-slate-600 block mt-1">Gres porcelánico, tarima AC5 hidrófuga y LED.</span>
+</button>
+<button class="calc-quality-btn p-3.5 rounded-xl border border-sky-200 text-left hover:border-pink-bubble transition-all" data-factor="1.55" type="button">
+<span class="text-xs font-bold text-sky-dark block">Premium</span>
+<span class="text-[11px] text-slate-500 block mt-1">Grifería empotrada, cerrajería oculta y domótica.</span>
+</button>
+</div>
+</div>
+<!-- Paso 4 -->
+<div class="pt-6 border-t border-sky-100">
+<div class="flex items-center justify-between mb-3">
+<span class="text-xs font-bold text-pink-bubble uppercase tracking-wider">Paso 4</span>
+<span class="text-xs text-slate-400">Partidas complementarias</span>
+</div>
+<h3 class="text-base font-bold text-sky-dark mb-3">Extras y mejoras energéticas recomendadas</h3>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+<label class="flex items-center gap-2.5 p-3 rounded-xl border border-sky-200 bg-sky-tint/40 cursor-pointer hover:bg-sky-50 transition-colors">
+<input class="calc-extra-check rounded border-sky-300 text-pink-bubble focus:ring-pink-bubble" data-price="2900" type="checkbox">
+<span class="text-xs text-slate-700 font-medium">Ventanas PVC Climalit (+2.900 €)</span>
+</label>
+<label class="flex items-center gap-2.5 p-3 rounded-xl border border-sky-200 bg-sky-tint/40 cursor-pointer hover:bg-sky-50 transition-colors">
+<input class="calc-extra-check rounded border-sky-300 text-pink-bubble focus:ring-pink-bubble" data-price="3400" type="checkbox">
+<span class="text-xs text-slate-700 font-medium">Aerotermia / Clima (+3.400 €)</span>
+</label>
+<label class="flex items-center gap-2.5 p-3 rounded-xl border border-sky-200 bg-sky-tint/40 cursor-pointer hover:bg-sky-50 transition-colors">
+<input class="calc-extra-check rounded border-sky-300 text-pink-bubble focus:ring-pink-bubble" data-price="950" type="checkbox">
+<span class="text-xs text-slate-700 font-medium">Licencia y Proyecto (+950 €)</span>
+</label>
+</div>
+</div>
+</div>
+<!-- Panel de Desglose en Vivo (Sticky) -->
+<div class="lg:col-span-5 technical-panel-bg text-white rounded-2xl p-6 sm:p-7 shadow-xl border border-sky-700/80 lg:sticky lg:top-24"><div class="flex items-center justify-between pb-3.5 border-b border-sky-600/70 mb-5"><div><span class="text-xs font-bold text-pink-300 uppercase tracking-wider block">Estudio Técnico Real</span><span class="text-[11px] text-sky-200">Madrid y Guadalajara</span></div><span class="material-symbols-outlined text-pink-300 text-2xl">assignment</span></div><div class="mb-6"><span class="text-xs text-sky-200 uppercase tracking-wider block mb-1">Compromiso IMR de Presupuesto:</span><div class="text-xl sm:text-2xl font-extrabold text-white tracking-tight">Estudio previo + Medición presencial gratuita</div><span class="text-[11px] text-sky-200/80 mt-2 block leading-relaxed">No ofrecemos cifras estándar ni automatizadas que luego varían en obra. Medimos y presupuestamos partida a partida con precio final cerrado.</span></div><div class="bg-sky-950/70 rounded-xl p-4 border border-sky-500/40 space-y-2.5 mb-6 text-xs"><div class="text-[11px] font-bold text-sky-200 uppercase tracking-wider mb-2">Lo que incluye tu propuesta formal:</div><div class="flex items-center gap-2 text-sky-100"><span class="material-symbols-outlined text-pink-300 text-sm">check_circle</span><span class="">Visita in situ por jefe de obra sin coste</span></div><div class="flex items-center gap-2 text-sky-100"><span class="material-symbols-outlined text-pink-300 text-sm">check_circle</span><span class="">Desglose por capítulos (albañilería, fontanería, electricidad)</span></div><div class="flex items-center gap-2 text-sky-100"><span class="material-symbols-outlined text-pink-300 text-sm">check_circle</span><span class="">Fecha fija de entrega y garantía contractual por escrito</span></div></div><form class="space-y-3" onsubmit="event.preventDefault(); alert('¡Solicitud de estimación técnica recibida! Un técnico de IMR contactará contigo para coordinar la medición gratuita.');"><span class="text-xs font-bold text-white block">Recibe tu propuesta técnica personalizada:</span><div class="flex flex-col sm:flex-row gap-2"><input class="h-11 px-3.5 rounded-xl bg-white text-slate-900 text-xs font-medium focus:ring-2 focus:ring-pink-bubble outline-none flex-1" placeholder="Teléfono (ej. 612 345 678)" required="" type="tel"><button class="h-11 px-4 rounded-xl bg-pink-bubble hover:bg-pink-hover text-white text-xs font-bold transition flex items-center justify-center gap-1.5 shrink-0 shadow-md shadow-pink-500/30" type="submit"><span class="">Solicitar estudio</span><span class="material-symbols-outlined text-[16px]">send</span></button></div><div class="flex items-center gap-1.5 text-[11px] text-sky-200 pt-1"><span class="material-symbols-outlined text-pink-300 text-sm">lock</span><span class="">Sin spam. Presupuesto 100% gratuito y sin compromiso.</span></div></form></div>
+</div>
+</div>
+</section>
+<!-- 6. REFORMAS DE LOCALES Y OFICINAS (SIN FOTOS - FICHA TÉCNICA Y CAPACIDADES) -->
+<section class="w-full py-16 lg:py-24 bg-sky-navy text-white border-b border-sky-800">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-6 space-y-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-900/80 border border-sky-500/40 text-pink-300 text-xs font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[17px]">storefront</span>
+<span class="">División Comercial &amp; Terciario</span>
+</div>
+<h2 class="text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
+              Reformas de locales y oficinas en Madrid
+            </h2>
+<p class="text-sky-100 text-base leading-relaxed">
+              Sabemos que cada día de persiana bajada es una pérdida directa. Por eso operamos con <strong>plazos exprés estipulados por contrato</strong>, doble turno de trabajo si es necesario y tramitación directa con la ECLU y el Ayuntamiento.
+            </p>
+<div class="space-y-3 pt-1">
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-pink-500/20 text-pink-300 flex items-center justify-center shrink-0 mt-0.5 border border-pink-400/40">
+<span class="material-symbols-outlined text-sm font-bold">check</span>
+</div>
+<span class="text-sm text-sky-100"><strong>Plazos garantizados:</strong> De 20 a 30 días para locales estándar con penalización económica diaria.</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-pink-500/20 text-pink-300 flex items-center justify-center shrink-0 mt-0.5 border border-pink-400/40">
+<span class="material-symbols-outlined text-sm font-bold">check</span>
+</div>
+<span class="text-sm text-sky-100"><strong>Licencias de actividad:</strong> Tramitación integral de declaración responsable y proyectos visados.</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-pink-500/20 text-pink-300 flex items-center justify-center shrink-0 mt-0.5 border border-pink-400/40">
+<span class="material-symbols-outlined text-sm font-bold">check</span>
+</div>
+<span class="text-sm text-sky-100"><strong>Servicio Llave en Mano:</strong> Climatización por conductos, insonorización certificada y acometidas trifásicas.</span>
+</div>
+</div>
+<div class="pt-3">
+<a class="inline-flex items-center gap-2 bg-pink-bubble hover:bg-pink-hover text-white text-sm font-bold px-6 py-3.5 rounded-xl shadow-lg shadow-pink-500/25 transition active:scale-95" href="#presupuesto">
+<span class="material-symbols-outlined text-[19px]">business_center</span>
+<span class="">Solicitar visita técnica para empresa</span>
+</a>
+</div>
+</div>
+<!-- Ficha Técnica Comercial Vectorial (Sin fotos) -->
+<div class="lg:col-span-6 bg-sky-900/60 border border-sky-600/50 rounded-2xl p-6 sm:p-8 space-y-6 backdrop-blur-sm">
+<div class="flex items-center justify-between border-b border-sky-700/70 pb-4">
+<div class="flex items-center gap-2.5">
+<div class="w-3 h-3 rounded-full bg-pink-400"></div>
+<span class="text-xs font-bold text-sky-200 uppercase tracking-wider">Protocolo de Ejecución Comercial</span>
+</div>
+<span class="text-xs text-pink-300 font-bold">Normativa CTE / REBT</span>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-4 rounded-xl bg-sky-950/70 border border-sky-600/40">
+<span class="text-xs text-sky-300 block mb-1">Tiempo de ejecución</span>
+<span class="text-2xl font-extrabold text-white">20 – 30 días</span>
+<span class="text-[11px] text-pink-300 block mt-1">Con penalización legal</span>
+</div>
+<div class="p-4 rounded-xl bg-sky-950/70 border border-sky-600/40">
+<span class="text-xs text-sky-300 block mb-1">Capacidad técnica</span>
+<span class="text-2xl font-extrabold text-white">Hasta 1.200 m²</span>
+<span class="text-[11px] text-sky-200 block mt-1">Oficinas y retail</span>
+</div>
+</div>
+<div class="space-y-2.5 text-xs text-sky-200 pt-2 border-t border-sky-700/60">
+<div class="flex items-center justify-between py-1 border-b border-sky-700/40">
+<span class="text-sky-300">Certificación acústica:</span>
+<span class="font-bold text-white">Ensayos in situ homologados</span>
+</div>
+<div class="flex items-center justify-between py-1 border-b border-sky-700/40">
+<span class="text-sky-300">Instalación eléctrica:</span>
+<span class="font-bold text-white">Boletín azul oficial incluido</span>
+</div>
+<div class="flex items-center justify-between py-1 border-b border-sky-700/40">
+<span class="text-sky-300">Seguro de Responsabilidad Civil:</span>
+<span class="font-bold text-white">Póliza hasta 600.000 €</span>
+</div>
+</div>
+<div class="p-3.5 bg-sky-950/80 border border-pink-400/40 rounded-xl text-xs text-pink-100 flex items-start gap-2.5">
+<span class="material-symbols-outlined text-pink-300 text-lg shrink-0">info</span>
+<span class="">Coordinamos las entregas en fines de semana y horarios nocturnos para centros comerciales o zonas peatonales de Madrid centro.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. PROYECTOS Y MEMORIAS TÉCNICAS (SIN FOTOS FALSAS - FICHAS DE OBRA REAL) -->
+<section class="w-full py-16 lg:py-24 bg-surface" id="proyectos">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8"><div class="text-center max-w-3xl mx-auto mb-12"><div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-pink-light text-pink-bubble border border-pink-200 text-xs font-bold uppercase tracking-wider mb-2"><span class="material-symbols-outlined text-[17px] text-pink-bubble">verified</span><span class="">Documentación Técnica Verificable</span></div><h2 class="text-3xl lg:text-4xl font-extrabold text-sky-dark tracking-tight">Dossier técnico y memorias de calidades reales</h2><p class="text-sky-900 text-sm sm:text-base mt-2 bg-pink-50/80 p-3.5 rounded-xl border border-pink-200"><strong class="text-pink-bubble">Transparencia absoluta:</strong> En IMR no utilizamos fotografías de banco de imágenes ni partidas simuladas. Durante la visita técnica previa ponemos a tu disposición los planos detallados, la memoria de calidades por partida y las muestras físicas en showroom antes de la firma.</p></div><div class="grid grid-cols-1 md:grid-cols-3 gap-6"><div class="bg-white rounded-2xl border border-sky-100 shadow-sm p-6 flex flex-col justify-between hover:border-pink-300 transition-all"><div><div class="flex items-center justify-between pb-3 border-b border-sky-100 mb-4"><span class="text-xs font-bold text-pink-bubble uppercase tracking-wider">Fase 1: Levantamiento</span><span class="text-xs bg-sky-50 text-sky-dark px-2.5 py-1 rounded-md font-semibold border border-sky-200">In situ</span></div><h3 class="text-xl font-bold text-sky-dark">Medición y comprobación técnica</h3><div class="text-xs text-slate-500 mt-1 mb-4">Viviendas y locales en Madrid y Guadalajara</div><div class="space-y-3 bg-sky-tint/50 p-4 rounded-xl border border-sky-100 text-xs mb-4"><div class="font-bold text-sky-dark uppercase tracking-wider text-[11px]">Qué comprobamos antes de presupuestar:</div><ul class="space-y-1.5 text-slate-600"><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Estado de bajantes generales y acometidas de saneamiento.</span></li><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Capacidad de cuadro eléctrico según normativa REBT.</span></li><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Comprobación de muros de carga y tabiquería con pladur.</span></li><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Planos acotados para redistribución óptima de espacios.</span></li></ul></div></div><div class="pt-4 border-t border-sky-100 flex items-center justify-between"><span class="text-xs text-slate-500 font-medium">Visita inicial</span><span class="text-[11px] text-pink-bubble font-bold bg-pink-50 border border-pink-200 px-2.5 py-1 rounded">100% Gratuita</span></div></div><div class="bg-white rounded-2xl border border-sky-100 shadow-sm p-6 flex flex-col justify-between hover:border-pink-300 transition-all"><div><div class="flex items-center justify-between pb-3 border-b border-sky-100 mb-4"><span class="text-xs font-bold text-pink-bubble uppercase tracking-wider">Fase 2: Presupuesto</span><span class="text-xs bg-sky-50 text-sky-dark px-2.5 py-1 rounded-md font-semibold border border-sky-200">Cerrado</span></div><h3 class="text-xl font-bold text-sky-dark">Memoria desglosada por capítulos</h3><div class="text-xs text-slate-500 mt-1 mb-4">Documento formal con precios vinculantes</div><div class="space-y-3 bg-sky-tint/50 p-4 rounded-xl border border-sky-100 text-xs mb-4"><div class="font-bold text-sky-dark uppercase tracking-wider text-[11px]">Garantías del presupuesto:</div><ul class="space-y-1.5 text-slate-600"><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Unidades y metros lineales medidos con exactitud.</span></li><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Modelos y referencias exactas de pavimentos y griferías.</span></li><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Retirada obligatoria a vertedero homologado con tasas.</span></li><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Precio total sellado sin incrementos imprevistos en obra.</span></li></ul></div></div><div class="pt-4 border-t border-sky-100 flex items-center justify-between"><span class="text-xs text-slate-500 font-medium">Compromiso formal</span><span class="text-[11px] text-pink-bubble font-bold bg-pink-50 border border-pink-200 px-2.5 py-1 rounded">Sin sobrecostes</span></div></div><div class="bg-white rounded-2xl border border-sky-100 shadow-sm p-6 flex flex-col justify-between hover:border-pink-300 transition-all"><div><div class="flex items-center justify-between pb-3 border-b border-sky-100 mb-4"><span class="text-xs font-bold text-pink-bubble uppercase tracking-wider">Fase 3: Showroom</span><span class="text-xs bg-sky-50 text-sky-dark px-2.5 py-1 rounded-md font-semibold border border-sky-200">Materiales</span></div><h3 class="text-xl font-bold text-sky-dark">Selección de acabados y calidades</h3><div class="text-xs text-slate-500 mt-1 mb-4">Distribuidores profesionales Madrid / Guadalajara</div><div class="space-y-3 bg-sky-tint/50 p-4 rounded-xl border border-sky-100 text-xs mb-4"><div class="font-bold text-sky-dark uppercase tracking-wider text-[11px]">Asesoramiento personalizado:</div><ul class="space-y-1.5 text-slate-600"><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Acompañamiento a showrooms para ver piezas reales.</span></li><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Elección directa de porcelánicos, tarimas y muebles.</span></li><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Descuentos de profesional aplicados directamente.</span></li><li class="flex items-start gap-1.5"><span class="text-pink-bubble font-bold">›</span><span class="">Verificación de stock y plazos de entrega antes de arrancar.</span></li></ul></div></div><div class="pt-4 border-t border-sky-100 flex items-center justify-between"><span class="text-xs text-slate-500 font-medium">Garantía de acabado</span><span class="text-[11px] text-pink-bubble font-bold bg-pink-50 border border-pink-200 px-2.5 py-1 rounded">5 años por escrito</span></div></div></div><div class="text-center mt-10"><a class="inline-flex items-center gap-2 bg-pink-bubble hover:bg-pink-hover text-white text-sm font-bold px-6 py-3.5 rounded-xl shadow-md shadow-pink-500/20 transition hover:shadow-lg" href="#presupuesto"><span class="material-symbols-outlined text-[19px]">calendar_month</span><span class="">Solicitar visita técnica y revisión de memoria</span></a></div></div>
+</section>
+<!-- 8. ASÍ TRABAJAMOS EN IMR (6 PILARES) -->
+<section class="w-full py-16 lg:py-24 bg-sky-tint/40 border-t border-sky-100" id="como-trabajamos">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-pink-light text-pink-bubble border border-pink-200 text-xs font-bold uppercase tracking-wider mb-2">
+<span class="">Metodología y Garantías</span>
+</div>
+<h2 class="text-3xl lg:text-4xl font-extrabold text-sky-dark tracking-tight">Así trabajamos en IMR</h2>
+<p class="text-on-surface-variant text-base mt-2">
+            La tranquilidad de delegar tu vivienda en técnicos formados, organizados y con contrato blindado.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm hover:border-pink-200 transition-all">
+<div class="w-12 h-12 rounded-xl bg-pink-50 text-pink-bubble flex items-center justify-center mb-4 border border-pink-100">
+<span class="material-symbols-outlined text-[26px]">receipt_long</span>
+</div>
+<h3 class="text-lg font-bold text-sky-dark mb-2">Presupuesto desglosado y cerrado</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Sin partidas ocultas ni imprevistos inventados. El precio acordado en el documento técnico es exactamente el que pagarás al finalizar la obra.
+            </p>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm hover:border-sky-300 transition-all">
+<div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-primary flex items-center justify-center mb-4 border border-sky-100">
+<span class="material-symbols-outlined text-[26px]">event_available</span>
+</div>
+<h3 class="text-lg font-bold text-sky-dark mb-2">Fecha fijada por contrato</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Plazos rigurosos con penalización económica diaria por retraso imputable a la empresa estipulada expresamente en el contrato de obra.
+            </p>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm hover:border-pink-200 transition-all">
+<div class="w-12 h-12 rounded-xl bg-pink-50 text-pink-bubble flex items-center justify-center mb-4 border border-pink-100">
+<span class="material-symbols-outlined text-[26px]">person_pin</span>
+</div>
+<h3 class="text-lg font-bold text-sky-dark mb-2">Interlocutor técnico único</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Un jefe de obra asignado coordina albañiles, fontaneros y electricistas, manteniéndote informado semanalmente sin marearte con llamadas cruzadas.
+            </p>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm hover:border-sky-300 transition-all">
+<div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-primary flex items-center justify-center mb-4 border border-sky-100">
+<span class="material-symbols-outlined text-[26px]">groups</span>
+</div>
+<h3 class="text-lg font-bold text-sky-dark mb-2">Operarios propios en nómina</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Plantilla fija cualificada con prevención de riesgos laborales al día. Cero subcontrataciones opacas para asegurar un acabado pulcro.
+            </p>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm hover:border-pink-200 transition-all">
+<div class="w-12 h-12 rounded-xl bg-pink-50 text-pink-bubble flex items-center justify-center mb-4 border border-pink-100">
+<span class="material-symbols-outlined text-[26px]">palette</span>
+</div>
+<h3 class="text-lg font-bold text-sky-dark mb-2">Asesoramiento en showrooms</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Te acompañamos a distribuidores líderes en Madrid y Guadalajara para seleccionar cerámicas, tarimas y griferías con descuentos de profesional.
+            </p>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm hover:border-sky-300 transition-all">
+<div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-primary flex items-center justify-center mb-4 border border-sky-100">
+<span class="material-symbols-outlined text-[26px]">gavel</span>
+</div>
+<h3 class="text-lg font-bold text-sky-dark mb-2">Gestión burocrática y licencias</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Nos encargamos del papeleo de comunicaciones previas, licencias urbanísticas y tasas en los ayuntamientos de la Comunidad de Madrid y Guadalajara.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. OPINIONES GOOGLE REVIEWS -->
+<section class="w-full py-16 lg:py-20 bg-sky-tint/30 border-t border-sky-100" id="opiniones"><div class="max-w-[1240px] mx-auto px-4 md:px-8"><div class="text-center max-w-2xl mx-auto mb-10"><div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-pink-light text-pink-bubble border border-pink-200 text-xs font-bold uppercase tracking-wider mb-3"><span class="material-symbols-outlined text-[17px]">star</span><span class="">Reseñas Reales Verificadas</span></div><h2 class="text-3xl lg:text-4xl font-extrabold text-sky-dark tracking-tight">Opiniones de Clientes en Google</h2><div class="flex items-center justify-center gap-2 mt-3"><div class="flex text-amber-400"><span class="material-symbols-outlined text-[20px] fill-current">star</span><span class="material-symbols-outlined text-[20px] fill-current">star</span><span class="material-symbols-outlined text-[20px] fill-current">star</span><span class="material-symbols-outlined text-[20px] fill-current">star</span><span class="material-symbols-outlined text-[20px] fill-current">star</span></div><span class="text-sm font-bold text-sky-dark">Excelente 5.0</span><span class="text-slate-400 text-xs">•</span><span class="text-xs font-semibold text-slate-600">Calificación basada en 30 reseñas verificadas en Google</span></div></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"><div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm flex flex-col justify-between hover:border-pink-300 transition-all"><div class="space-y-3"><div class="flex items-center justify-between"><div class="flex text-amber-400"><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span></div><span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Google Verificado</span></div><p class="text-xs text-slate-700 leading-relaxed italic">“Contrate a esta empresa para una reforma integral y no he podido quedar más contento. Profesionales, agradables y muy rápidos.”</p></div><div class="pt-4 border-t border-sky-100 flex items-center gap-2.5 mt-4"><div class="w-8 h-8 rounded-full bg-sky-100 text-sky-dark font-bold text-xs flex items-center justify-center shrink-0">RO</div><div><span class="text-xs font-bold text-sky-dark block">Raulolmo98</span><span class="text-[10px] text-slate-400 block">Reforma integral de vivienda</span></div></div></div><div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm flex flex-col justify-between hover:border-pink-300 transition-all"><div class="space-y-3"><div class="flex items-center justify-between"><div class="flex text-amber-400"><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span></div><span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Google Verificado</span></div><p class="text-xs text-slate-700 leading-relaxed italic">“Tuve un problema de goteo con mi lavabo. Llamé y me atendieron muy rápido. Me solucionaron el problema y los precios son muy buenos. Trato agradable y eficaz. Muy recomendable.”</p></div><div class="pt-4 border-t border-sky-100 flex items-center gap-2.5 mt-4"><div class="w-8 h-8 rounded-full bg-pink-100 text-pink-bubble font-bold text-xs flex items-center justify-center shrink-0">CS</div><div><span class="text-xs font-bold text-sky-dark block">Carolina Suarez</span><span class="text-[10px] text-slate-400 block">Fontanería y sanitarios</span></div></div></div><div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm flex flex-col justify-between hover:border-pink-300 transition-all"><div class="space-y-3"><div class="flex items-center justify-between"><div class="flex text-amber-400"><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span></div><span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Google Verificado</span></div><p class="text-xs text-slate-700 leading-relaxed italic">“Estoy encantada llevo años queriendo reformar la casa entera, pero no daba con nadie que llegará a mis exigencias, hasta que di con ellos. El trato ha sido espectacular, la profesionalidad, los materiales...”</p></div><div class="pt-4 border-t border-sky-100 flex items-center gap-2.5 mt-4"><div class="w-8 h-8 rounded-full bg-sky-100 text-sky-dark font-bold text-xs flex items-center justify-center shrink-0">MT</div><div><span class="text-xs font-bold text-sky-dark block">Mar Torio</span><span class="text-[10px] text-slate-400 block">Reforma completa de casa</span></div></div></div><div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm flex flex-col justify-between hover:border-pink-300 transition-all"><div class="space-y-3"><div class="flex items-center justify-between"><div class="flex text-amber-400"><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span><span class="material-symbols-outlined text-[16px]">star</span></div><span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Google Verificado</span></div><p class="text-xs text-slate-700 leading-relaxed italic">“Muy recomendable. Ha quedado muy bonita la reforma integral del piso. Recomendación 100% muy serios y lo hicieron en el tiempo indicado. Les doy 5 estrellas.”</p></div><div class="pt-4 border-t border-sky-100 flex items-center gap-2.5 mt-4"><div class="w-8 h-8 rounded-full bg-pink-100 text-pink-bubble font-bold text-xs flex items-center justify-center shrink-0">JP</div><div><span class="text-xs font-bold text-sky-dark block">Javier Puente</span><span class="text-[10px] text-slate-400 block">Reforma integral de piso</span></div></div></div></div></div></section><section class="w-full py-16 lg:py-24 bg-surface border-t border-sky-100" id="compromisos"><div class="max-w-[1240px] mx-auto px-4 md:px-8"><div class="text-center max-w-2xl mx-auto mb-12"><div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-pink-light text-pink-bubble border border-pink-200 text-xs font-bold uppercase tracking-wider mb-2"><span class="">Marco Contractual Vinculante</span></div><h2 class="text-3xl lg:text-4xl font-extrabold text-sky-dark tracking-tight">Garantías y compromisos contractuales reales</h2><p class="text-on-surface-variant text-base mt-2">En IMR sustituimos promesas verbales por cláusulas verificables por escrito para tu total seguridad jurídica.</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"><div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm flex flex-col justify-between hover:border-pink-200 transition-all"><div class="w-12 h-12 rounded-xl bg-pink-50 text-pink-bubble flex items-center justify-center mb-4 border border-pink-100"><span class="material-symbols-outlined text-[26px]">lock</span></div><h3 class="text-lg font-bold text-sky-dark mb-2">Precio cerrado vinculante</h3><p class="text-xs text-on-surface-variant leading-relaxed">El presupuesto aceptado se fija por contrato. Si surgen imprevistos técnicos imputables a la ejecución, los asume IMR sin sobrecostes para el cliente.</p><div class="mt-4 pt-3 border-t border-sky-100"><span class="text-[11px] font-bold text-pink-bubble block">Cláusula cerrada en contrato</span></div></div><div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm flex flex-col justify-between hover:border-sky-300 transition-all"><div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-primary flex items-center justify-center mb-4 border border-sky-100"><span class="material-symbols-outlined text-[26px]">schedule</span></div><h3 class="text-lg font-bold text-sky-dark mb-2">Penalización diaria por retraso</h3><p class="text-xs text-on-surface-variant leading-relaxed">Estipulamos fecha fija de finalización con penalización económica diaria a favor del cliente por cada jornada de retraso no justificada.</p><div class="mt-4 pt-3 border-t border-sky-100"><span class="text-[11px] font-bold text-sky-primary block">Fecha límite garantizada</span></div></div><div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm flex flex-col justify-between hover:border-pink-200 transition-all"><div class="w-12 h-12 rounded-xl bg-pink-50 text-pink-bubble flex items-center justify-center mb-4 border border-pink-100"><span class="material-symbols-outlined text-[26px]">verified</span></div><h3 class="text-lg font-bold text-sky-dark mb-2">Garantía de 5 años por escrito</h3><p class="text-xs text-on-surface-variant leading-relaxed">Emitimos certificado formal de garantía legal que cubre instalaciones de fontanería, electricidad, estanqueidad y acabados generales.</p><div class="mt-4 pt-3 border-t border-sky-100"><span class="text-[11px] font-bold text-pink-bubble block">Certificado técnico de entrega</span></div></div><div class="bg-white p-6 rounded-2xl border border-sky-100 shadow-sm flex flex-col justify-between hover:border-sky-300 transition-all"><div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-primary flex items-center justify-center mb-4 border border-sky-100"><span class="material-symbols-outlined text-[26px]">shield</span></div><h3 class="text-lg font-bold text-sky-dark mb-2">Seguro de R.C. Colegiado</h3><p class="text-xs text-on-surface-variant leading-relaxed">Póliza de Responsabilidad Civil de hasta 600.000 € y registro REA oficial para cubrir cualquier eventualidad en el edificio o zonas comunes.</p><div class="mt-4 pt-3 border-t border-sky-100"><span class="text-[11px] font-bold text-sky-primary block">Póliza activa y acreditada</span></div></div></div></div></section>
+<!-- 10. TU REFORMA PASO A PASO (4 FASES) -->
+<section class="w-full py-16 lg:py-24 bg-sky-tint/50 border-t border-sky-100">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-100 text-sky-dark text-xs font-bold uppercase tracking-wider mb-2 border border-sky-200">
+<span class="">Planificación Rigurosa</span>
+</div>
+<h2 class="text-3xl lg:text-4xl font-extrabold text-sky-dark tracking-tight">Tu reforma, paso a paso</h2>
+<p class="text-on-surface-variant text-base mt-2">Un proceso estructurado para que no tengas que preocuparte por nada.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+<div class="bg-white p-6 rounded-2xl border border-sky-100 relative shadow-sm">
+<span class="text-3xl font-extrabold text-pink-300 block mb-3">01</span>
+<h3 class="text-base font-bold text-sky-dark mb-2">Nos cuentas tu idea</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              A través de nuestro formulario web, llamada telefónica o WhatsApp. Nos indicas qué necesitas y tus preferencias.
+            </p>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-sky-100 relative shadow-sm">
+<span class="text-3xl font-extrabold text-pink-300 block mb-3">02</span>
+<h3 class="text-base font-bold text-sky-dark mb-2">Visita técnica gratuita</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Un jefe de obra visita tu vivienda en Madrid o Guadalajara para tomar cotas exactas, revisar instalaciones y asesorarte sin coste.
+            </p>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-sky-100 relative shadow-sm">
+<span class="text-3xl font-extrabold text-pink-300 block mb-3">03</span>
+<h3 class="text-base font-bold text-sky-dark mb-2">Presupuesto y firma</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Entrega de presupuesto partida por partida, contrato con precio 100% cerrado y fecha formal de entrega garantizada.
+            </p>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-sky-100 relative shadow-sm">
+<span class="text-3xl font-extrabold text-pink-300 block mb-3">04</span>
+<h3 class="text-base font-bold text-sky-dark mb-2">Ejecución y entrega</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Obras con control continuado, limpieza completa fin de obra y entrega de la garantía escrita de 5 años.
+            </p>
+</div>
+</div>
+<div class="text-center">
+<a class="inline-flex items-center gap-2 bg-pink-bubble hover:bg-pink-hover text-white text-sm font-bold px-7 py-3.5 rounded-xl shadow-md shadow-pink-500/25 transition hover:scale-105" href="#presupuesto">
+<span class="material-symbols-outlined text-[19px]">handshake</span>
+<span class="">Empezar mi reforma con visita gratuita</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 11. PREGUNTAS FRECUENTES (FAQS) -->
+<section class="w-full py-16 lg:py-24 bg-surface border-t border-sky-100">
+<div class="max-w-3xl mx-auto px-4 md:px-8">
+<div class="text-center mb-12">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-100 text-sky-dark text-xs font-bold uppercase tracking-wider mb-2 border border-sky-200">
+<span class="">Dudas Frecuentes</span>
+</div>
+<h2 class="text-3xl font-extrabold text-sky-dark tracking-tight">Preguntas Frecuentes sobre Reformas</h2>
+<p class="text-on-surface-variant text-sm mt-2">Todo lo que necesitas saber antes de contratar tu obra.</p>
+</div>
+<div class="space-y-3">
+<details class="group bg-white rounded-xl border border-sky-100 p-5 shadow-sm">
+<summary class="flex justify-between items-center cursor-pointer list-none font-bold text-sky-dark text-sm sm:text-base">
+<span class="">¿Cuánto cuesta reformar un baño en Madrid?</span>
+<span class="material-symbols-outlined text-pink-bubble group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-3 text-xs sm:text-sm text-on-surface-variant leading-relaxed pt-2 border-t border-sky-100">
+              El coste habitual oscila entre <strong>3.000 € y 5.500 €</strong>, según calidades de sanitarios, tipo de mampara y si se renueva íntegramente la red de fontanería. En IMR te entregamos presupuesto con partidas exactas y precio cerrado.
+            </div>
+</details>
+<details class="group bg-white rounded-xl border border-sky-100 p-5 shadow-sm">
+<summary class="flex justify-between items-center cursor-pointer list-none font-bold text-sky-dark text-sm sm:text-base">
+<span class="">¿Cuánto tarda una reforma integral?</span>
+<span class="material-symbols-outlined text-pink-bubble group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-3 text-xs sm:text-sm text-on-surface-variant leading-relaxed pt-2 border-t border-sky-100">
+              Para un piso medio de entre 70 y 90 m², el tiempo habitual es de <strong>6 a 8 semanas</strong>. Esta fecha se refleja expresamente en el contrato junto a una penalización económica diaria en caso de demora no justificada.
+            </div>
+</details>
+<details class="group bg-white rounded-xl border border-sky-100 p-5 shadow-sm">
+<summary class="flex justify-between items-center cursor-pointer list-none font-bold text-sky-dark text-sm sm:text-base">
+<span class="">¿El presupuesto es realmente cerrado?</span>
+<span class="material-symbols-outlined text-pink-bubble group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-3 text-xs sm:text-sm text-on-surface-variant leading-relaxed pt-2 border-t border-sky-100">
+<strong>Sí, 100% cerrado.</strong> Gracias a la visita técnica previa donde levantamos medidas minuciosas y comprobamos bajantes y cuadros eléctricos, la cifra acordada no sufre variaciones a menos que tú decidas voluntariamente modificar alguna partida durante la obra.
+            </div>
+</details>
+<details class="group bg-white rounded-xl border border-sky-100 p-5 shadow-sm">
+<summary class="flex justify-between items-center cursor-pointer list-none font-bold text-sky-dark text-sm sm:text-base">
+<span class="">¿Qué cobertura tiene la garantía de 5 años?</span>
+<span class="material-symbols-outlined text-pink-bubble group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-3 text-xs sm:text-sm text-on-surface-variant leading-relaxed pt-2 border-t border-sky-100">
+              Cubre instalaciones de fontanería, electricidad, estanqueidad de zonas húmedas, solados y acabados generales. Expedimos un certificado formal de garantía legal al término de los trabajos.
+            </div>
+</details>
+<details class="group bg-white rounded-xl border border-sky-100 p-5 shadow-sm">
+<summary class="flex justify-between items-center cursor-pointer list-none font-bold text-sky-dark text-sm sm:text-base">
+<span class="">¿Trabajáis en toda la Comunidad de Madrid y Guadalajara?</span>
+<span class="material-symbols-outlined text-pink-bubble group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-3 text-xs sm:text-sm text-on-surface-variant leading-relaxed pt-2 border-t border-sky-100">
+              Sí. Damos servicio tanto a Madrid capital (Chamberí, Salamanca, Chamartín, Retiro, Ciudad Lineal, Moncloa, etc.) como a municipios de la periferia (Alcalá de Henares, Torrejón, Las Rozas, Pozuelo) y la provincia de Guadalajara.
+            </div>
+</details>
+</div>
+</div>
+</section>
+<!-- 12. ZONA DE SERVICIO Y LOCALIZACIÓN TÉCNICA -->
+<section class="w-full py-16 lg:py-24 bg-sky-tint/40 border-t border-sky-100">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-7 space-y-5">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-pink-light text-pink-bubble border border-pink-200 text-xs font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[17px]">location_on</span>
+<span class="">Cobertura y Sedes Operativas</span>
+</div>
+<h2 class="text-3xl font-extrabold text-sky-dark tracking-tight">
+              Reformas en Madrid y Guadalajara
+            </h2>
+<p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              Nuestra oficina técnica central está ubicada en <strong>C. de Vital Aza, 48, 28017 Madrid (distrito de Ciudad Lineal)</strong>. Desde aquí coordinamos el movimiento de cuadrillas e insumos a lo largo de los principales corredores metropolitanos.
+            </p>
+<div>
+<span class="text-xs font-bold text-sky-900 uppercase tracking-wider block mb-3">Distritos y municipios habituales:</span>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">Ciudad Lineal</span>
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">Barrio de Salamanca</span>
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">Chamartín</span>
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">Chamberí</span>
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">Retiro</span>
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">Hortaleza</span>
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">San Blas</span>
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">Alcalá de Henares</span>
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">Torrejón de Ardoz</span>
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">Guadalajara Capital</span>
+<span class="px-3 py-1.5 rounded-lg bg-white border border-sky-200 text-xs font-semibold text-slate-800">Corredor del Henares</span>
+</div>
+</div>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 text-xs font-bold text-sky-dark hover:text-pink-bubble transition-colors" href="https://maps.google.com/?q=Calle+de+Vital+Aza+48+Madrid" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-pink-bubble">near_me</span>
+<span class="">Cómo llegar a nuestra oficina en Ciudad Lineal</span>
+</a>
+</div>
+</div>
+<!-- Panel Vectorial Arquitectónico de Localización (Sin fotos) -->
+<div class="lg:col-span-5 bg-sky-dark text-white rounded-2xl p-6 sm:p-7 border border-sky-600/70 shadow-xl space-y-5">
+<div class="flex items-center justify-between pb-3 border-b border-sky-600/60">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-pink-300 text-xl">home_pin</span>
+<span class="text-xs font-bold uppercase tracking-wider">Punto de Atención Técnica</span>
+</div>
+<span class="text-[11px] font-bold text-pink-300 bg-pink-950/60 px-2.5 py-0.5 rounded border border-pink-700/60">Lunes a Sábado: 8:00 - 20:00</span>
+</div>
+<div class="space-y-3 text-xs">
+<div>
+<span class="text-sky-200 block text-[11px] uppercase">Dirección Sede</span>
+<span class="text-sm font-bold text-white block mt-0.5">C. de Vital Aza, 48, 28017 Madrid</span>
+<span class="text-sky-200/80 block">Distrito Ciudad Lineal (Metro Quintana / Ascao)</span>
+</div>
+<div>
+<span class="text-sky-200 block text-[11px] uppercase">Teléfono de Oficina</span>
+<a class="text-sm font-bold text-pink-300 hover:underline block mt-0.5" href="tel:910605019">910 605 019</a>
+</div>
+<div>
+<span class="text-sky-200 block text-[11px] uppercase">Email técnico</span>
+<a class="text-sm font-bold text-sky-100 hover:underline block mt-0.5" href="mailto:info@imrreformas.es">info@imrreformas.es</a>
+</div>
+</div>
+<div class="pt-3 border-t border-sky-600/60">
+<span class="text-[11px] text-sky-200 block mb-2 font-medium">Plazo medio de respuesta técnica:</span>
+<div class="w-full bg-sky-950 h-2 rounded-full overflow-hidden">
+<div class="bg-pink-bubble h-full w-[95%]"></div>
+</div>
+<span class="text-[10px] text-pink-200 block mt-1.5 font-bold">Respuesta garantizada en menos de 24 horas laborables</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 13. CTA FINAL CON FORMULARIO ("¿Empezamos tu reforma?") -->
+<section class="w-full py-16 lg:py-20 technical-blueprint-bg text-white border-t border-sky-800" id="contacto">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-950/80 border border-sky-400/40 text-pink-300 text-xs font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[17px]">build</span>
+<span class="">Comienza Sin Esperas</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+              ¿Empezamos tu reforma?
+            </h2>
+<p class="text-sky-100 text-base max-w-xl font-normal leading-relaxed">
+              Visita y presupuesto 100% gratis. Acudimos a tu inmueble, resolvemos todas tus dudas sobre materiales y te entregamos un planteamiento formal cerrado.
+            </p>
+<div class="flex flex-col sm:flex-row gap-3 pt-2">
+<a class="inline-flex items-center justify-center gap-2 bg-white hover:bg-sky-50 text-sky-dark font-bold text-sm px-6 py-3.5 rounded-xl shadow-lg transition" href="tel:910605019">
+<span class="material-symbols-outlined text-[20px] text-pink-bubble">call</span>
+<span class="">Llamar al 910 605 019</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 bg-whatsapp hover:bg-whatsapp-hover text-white font-bold text-sm px-6 py-3.5 rounded-xl shadow-lg transition" href="https://wa.me/34910605019" rel="noopener noreferrer" target="_blank">
+<svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+<path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.136 8.136 0 0 1-1.25-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.188 8.188 0 0 1 2.41 5.83c.01 4.54-3.68 8.23-8.22 8.23z"></path>
+</svg>
+<span class="">Contactar por WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- Formulario Compacto en 1 Clic -->
+<div class="lg:col-span-5">
+<div class="bg-white text-on-surface rounded-2xl p-6 sm:p-7 shadow-2xl border border-sky-100">
+<h3 class="text-xl font-bold text-sky-dark mb-1">Solicitud rápida en 1 clic</h3>
+<p class="text-xs text-on-surface-variant mb-4">Déjanos tu contacto y te llamamos de inmediato.</p>
+<form class="space-y-3" onsubmit="event.preventDefault(); alert('¡Solicitud rápida recibida! Te llamaremos en menos de 24 horas.');">
+<div>
+<label class="block text-xs font-bold text-sky-900 uppercase mb-1" for="quick-name">Nombre</label>
+<input class="w-full h-11 px-3.5 rounded-xl border border-sky-200 bg-sky-tint/30 text-sm font-medium focus:ring-1 focus:ring-pink-bubble focus:border-pink-bubble outline-none" id="quick-name" placeholder="Nombre y apellidos" required="" type="text">
+</div>
+<div>
+<label class="block text-xs font-bold text-sky-900 uppercase mb-1" for="quick-phone">Teléfono de contacto</label>
+<input class="w-full h-11 px-3.5 rounded-xl border border-sky-200 bg-sky-tint/30 text-sm font-medium focus:ring-1 focus:ring-pink-bubble focus:border-pink-bubble outline-none" id="quick-phone" placeholder="Ej. 612 345 678" required="" type="tel">
+</div>
+<div>
+<label class="block text-xs font-bold text-sky-900 uppercase mb-1" for="quick-comment">¿Qué necesitas reformar?</label>
+<textarea class="w-full p-3 rounded-xl border border-sky-200 bg-sky-tint/30 text-sm font-medium focus:ring-1 focus:ring-pink-bubble focus:border-pink-bubble outline-none" id="quick-comment" placeholder="Ej. Baño en Chamberí o piso en Guadalajara..." rows="2"></textarea>
+</div>
+<div class="flex items-start gap-2 pt-1">
+<input class="mt-1 h-4 w-4 rounded border-sky-300 text-pink-bubble focus:ring-pink-bubble cursor-pointer" id="quick-privacy" required="" type="checkbox">
+<label class="text-[11px] text-slate-500 leading-snug cursor-pointer" for="quick-privacy">
+                    Acepto el tratamiento de datos para la elaboración del presupuesto.
+                  </label>
+</div>
+<button class="w-full mt-2 py-3 px-4 rounded-xl bg-pink-bubble hover:bg-pink-hover text-white text-xs font-bold shadow-md shadow-pink-500/25 transition flex items-center justify-center gap-2" type="submit">
+<span class="">Enviar solicitud gratuita</span>
+<span class="material-symbols-outlined text-[17px]">send</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 14. FOOTER COMPLETO -->
+<footer class="w-full bg-[#032a44] text-sky-200 py-12 border-t border-sky-800 text-xs">
+<div class="max-w-[1240px] mx-auto px-4 md:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-10 border-b border-sky-800/80">
+<!-- Logo y Bio -->
+<div class="lg:col-span-2 space-y-3">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-sky-900 text-pink-bubble flex items-center justify-center border border-sky-700"><img src="https://lh3.googleusercontent.com/aida/AEtjO1UmL4c_G0b0cWOlwB_udAqMM_yEUm5pouG-2cnOdxA0EZsPbOBeuEKnZMuO_-lxCYHuPcxJxwGqmaM_U_SHWI4DNsEy2grUowN7NB6-vn00jQjw73Ka_R37M8GLc8WuCbc8Flu-Yre1YvMNDGQp_RUYsrwaQLNw3hsiLE-w-qlO57a5Je9XPLvX87DkEbs8P-3wz75Z_lUTxw_SHNsQhU_LrqPHNxM3HsaHC67wtx9d5TpTyV0WAZJr5zw" alt="Logo IMR Reformas" class="w-full h-full object-contain bg-white rounded p-0.5"></div>
+<span class="text-base font-extrabold text-white uppercase tracking-tight">IMR Reformas</span>
+</div>
+<p class="text-sky-200/80 leading-relaxed max-w-sm">
+              Empresa constructora y de reformas integrales en Madrid y Guadalajara. Presupuestos cerrados, operarios homologados en plantilla y 5 años de garantía certificada por escrito.
+            </p>
+<div class="text-[11px] text-sky-300/60">
+              Póliza R.C. Colegiada hasta 600.000 € • R.E.A. Nº 12/28/0129302
+            </div>
+</div>
+<!-- Contacto Directo -->
+<div class="space-y-2">
+<span class="font-bold text-white uppercase tracking-wider block mb-2 text-xs">Contacto Directo</span>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-pink-400 text-sm shrink-0">location_on</span>
+<span class="">C. de Vital Aza, 48, 28017 Madrid</span>
+</div>
+<a class="flex items-center gap-2 text-white hover:text-pink-300 transition-colors font-bold" href="tel:910605019">
+<span class="material-symbols-outlined text-pink-400 text-sm shrink-0">call</span>
+<span class="">910 605 019</span>
+</a>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-pink-400 text-sm shrink-0">schedule</span>
+<span class="">Lunes a Sábado: 8:00 – 20:00 h</span>
+</div>
+</div>
+<!-- Navegación -->
+<div class="space-y-2">
+<span class="font-bold text-white uppercase tracking-wider block mb-2 text-xs">Navegación</span>
+<a class="block hover:text-pink-300 transition-colors" href="#servicios">Servicios de Vivienda</a>
+<a class="block hover:text-pink-300 transition-colors" href="#calculadora">Calculadora de Presupuestos</a>
+<a class="block hover:text-pink-300 transition-colors" href="#proyectos">Proyectos y Memorias</a>
+<a class="block hover:text-pink-300 transition-colors" href="#compromisos">Garantías Contractuales</a>
+<a class="block hover:text-pink-300 transition-colors" href="#como-trabajamos">Cómo Trabajamos</a>
+</div>
+<!-- Garantías -->
+<div class="space-y-2.5">
+<span class="font-bold text-white uppercase tracking-wider block mb-2 text-xs">Garantías IMR</span>
+<div class="p-3 rounded-lg bg-sky-950/70 border border-sky-800">
+<span class="font-bold text-white block text-[11px]">Garantía 5 Años</span>
+<span class="text-[11px] text-pink-300">Por escrito en contrato formal</span>
+</div>
+<div class="p-3 rounded-lg bg-sky-950/70 border border-sky-800">
+<span class="font-bold text-white block text-[11px]">Precio 100% Cerrado</span>
+<span class="text-[11px] text-sky-200">Cero sobrecostes imprevistos</span>
+</div>
+</div>
+</div>
+<div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-sky-300/70">
+<div class="">
+            © 2025 IMR Reformas Madrid &amp; Guadalajara. Todos los derechos reservados.
+          </div>
+<div class="flex items-center gap-4">
+<a class="hover:text-white transition-colors" href="#">Aviso Legal</a>
+<a class="hover:text-white transition-colors" href="#">Política de Privacidad</a>
+<a class="hover:text-white transition-colors" href="#">Cookies</a>
+</div>
+</div>
+</div>
+</footer>
+</main>
+<!-- BOTÓN FLOTANTE WHATSAPP -->
+<div class="fixed bottom-6 right-6 z-50">
+<a aria-label="Contactar por WhatsApp" class="w-14 h-14 rounded-full bg-whatsapp hover:bg-whatsapp-hover text-white flex items-center justify-center shadow-2xl animate-subtle-pulse transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-emerald-400/40" href="https://wa.me/34910605019" rel="noopener noreferrer" target="_blank">
+<svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
+<path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.136 8.136 0 0 1-1.25-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.188 8.188 0 0 1 2.41 5.83c.01 4.54-3.68 8.23-8.22 8.23z"></path>
+</svg>
+</a>
+</div>
+<!-- SCRIPT DE LA CALCULADORA INTERACTIVA -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var currentBase = 550;
+      var currentM2 = 80;
+      var currentFactor = 1.25;
+
+      var typeButtons = document.querySelectorAll('.calc-type-btn');
+      var rangeSlider = document.getElementById('calc-range');
+      var rangeText = document.getElementById('calc-sqm-text');
+      var badgeButtons = document.querySelectorAll('.calc-badge-btn');
+      var qualityButtons = document.querySelectorAll('.calc-quality-btn');
+      var extraChecks = document.querySelectorAll('.calc-extra-check');
+
+      var totalRangeDisplay = document.getElementById('calc-total-range');
+      var partMano = document.getElementById('calc-part-mano');
+      var partMat = document.getElementById('calc-part-mat');
+      var partCoord = document.getElementById('calc-part-coord');
+
+      function updateCalculation() {
+        var baseAmount = currentBase * currentM2 * currentFactor;
+        var extrasAmount = 0;
+        extraChecks.forEach(function(ck) {
+          if (ck.checked) {
+            extrasAmount += parseFloat(ck.getAttribute('data-price') || 0);
+          }
+        });
+
+        var finalTotal = baseAmount + extrasAmount;
+        var minBound = Math.round((finalTotal * 0.9) / 100) * 100;
+        var maxBound = Math.round((finalTotal * 1.1) / 100) * 100;
+        var average = Math.round(finalTotal);
+
+        if (totalRangeDisplay) {
+          totalRangeDisplay.textContent = minBound.toLocaleString('es-ES') + ' € – ' + maxBound.toLocaleString('es-ES') + ' €';
+        }
+        if (partMano) {
+          partMano.textContent = Math.round(average * 0.50).toLocaleString('es-ES') + ' €';
+        }
+        if (partMat) {
+          partMat.textContent = Math.round(average * 0.35).toLocaleString('es-ES') + ' €';
+        }
+        if (partCoord) {
+          partCoord.textContent = Math.round(average * 0.15).toLocaleString('es-ES') + ' €';
+        }
+      }
+
+      // Tipos de obra
+      typeButtons.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          typeButtons.forEach(function(b) {
+            b.classList.remove('border-2', 'border-pink-bubble', 'bg-pink-50/60');
+            b.classList.add('border', 'border-sky-200', 'bg-white', 'text-slate-600');
+            var icon = b.querySelector('.material-symbols-outlined');
+            if (icon) icon.classList.remove('text-pink-bubble');
+          });
+          btn.classList.remove('border', 'border-sky-200', 'bg-white', 'text-slate-600');
+          btn.classList.add('border-2', 'border-pink-bubble', 'bg-pink-50/60', 'text-sky-dark');
+          var activeIcon = btn.querySelector('.material-symbols-outlined');
+          if (activeIcon) activeIcon.classList.add('text-pink-bubble');
+
+          currentBase = parseFloat(btn.getAttribute('data-base') || 550);
+          updateCalculation();
+        });
+      });
+
+      // Slider
+      if (rangeSlider) {
+        rangeSlider.addEventListener('input', function(e) {
+          currentM2 = parseInt(e.target.value, 10);
+          if (rangeText) rangeText.textContent = currentM2 + ' m²';
+
+          badgeButtons.forEach(function(bg) {
+            if (parseInt(bg.getAttribute('data-m2'), 10) === currentM2) {
+              bg.classList.remove('bg-sky-50', 'text-sky-900', 'font-semibold', 'border', 'border-sky-200');
+              bg.classList.add('bg-pink-bubble', 'text-white', 'font-bold', 'shadow-sm');
+            } else {
+              bg.classList.remove('bg-pink-bubble', 'text-white', 'font-bold', 'shadow-sm');
+              bg.classList.add('bg-sky-50', 'text-sky-900', 'font-semibold', 'border', 'border-sky-200');
+            }
+          });
+          updateCalculation();
+        });
+      }
+
+      // Badges
+      badgeButtons.forEach(function(badge) {
+        badge.addEventListener('click', function() {
+          var m2Val = parseInt(badge.getAttribute('data-m2'), 10);
+          currentM2 = m2Val;
+          if (rangeSlider) rangeSlider.value = m2Val;
+          if (rangeText) rangeText.textContent = m2Val + ' m²';
+
+          badgeButtons.forEach(function(bg) {
+            bg.classList.remove('bg-pink-bubble', 'text-white', 'font-bold', 'shadow-sm');
+            bg.classList.add('bg-sky-50', 'text-sky-900', 'font-semibold', 'border', 'border-sky-200');
+          });
+          badge.classList.remove('bg-sky-50', 'text-sky-900', 'font-semibold', 'border', 'border-sky-200');
+          badge.classList.add('bg-pink-bubble', 'text-white', 'font-bold', 'shadow-sm');
+          updateCalculation();
+        });
+      });
+
+      // Calidades
+      qualityButtons.forEach(function(qBtn) {
+        qBtn.addEventListener('click', function() {
+          qualityButtons.forEach(function(qb) {
+            qb.classList.remove('border-2', 'border-pink-bubble', 'bg-pink-50/50');
+            qb.classList.add('border', 'border-sky-200');
+            var title = qb.querySelector('span:first-child');
+            if (title && !qb.contains(qb.querySelector('.uppercase'))) {
+              title.classList.remove('text-pink-bubble');
+              title.classList.add('text-sky-dark');
+            }
+          });
+          qBtn.classList.remove('border', 'border-sky-200');
+          qBtn.classList.add('border-2', 'border-pink-bubble', 'bg-pink-50/50');
+          var activeTitle = qBtn.querySelector('span:first-child');
+          if (activeTitle && !qBtn.contains(qBtn.querySelector('.uppercase'))) {
+            activeTitle.classList.add('text-pink-bubble');
+          }
+          currentFactor = parseFloat(qBtn.getAttribute('data-factor') || 1.25);
+          updateCalculation();
+        });
+      });
+
+      // Extras
+      extraChecks.forEach(function(ck) {
+        ck.addEventListener('change', function() {
+          updateCalculation();
+        });
+      });
+
+      updateCalculation();
+    });
+  </script>
+
+
+</body></html>
